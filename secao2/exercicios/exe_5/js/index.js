@@ -7,9 +7,10 @@ Escrever o nome do usuário no documento html
 3) A segunda letra do nome do usuário
 4) Qual é o primeiro indice da letra a do nome.
 5) Qual é o ultimo indice da letra a do nome
-6) As palavras do seu nome são
-7) Nome com letras maiusculas
-6) Nome com letas maiusculas
+6) As 3 ultimas letras do nome:
+7) As palavras do seu nome são:
+8) Nome com letras maiusculas:
+9) Nome com letas maiusculas:
 */ 
 
 
@@ -24,6 +25,7 @@ document.body.innerHTML += `Quantidade de letras: ${nome_usuario.length} <br />`
 document.body.innerHTML += `Segunda letra: ${nome_usuario[1]} <br />`
 document.body.innerHTML += `A letra aparece a prmieira vez na ${nome_usuario.indexOf('a')}ª posição <br />`
 document.body.innerHTML += `A letra aparece a ultima vez na ${nome_usuario.lastIndexOf('a')}ª <br />`
-document.body.innerHTML += `_ ${nome_usuario.slice( )} <br />`
+document.body.innerHTML += `A letra ultimas letras: ${nome_usuario.slice(-3)}`
+document.body.innerHTML += `_ ${nome_usuario.split(' ')} <br />`
 document.body.innerHTML += `_ ${nome_usuario.toUpperCase()} <br />`
 document.body.innerHTML += `_ ${nome_usuario.toLowerCase()} <br />`
