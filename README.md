@@ -8,3 +8,5 @@ Curso de TypeScript da Udemy. <br />
 * exe_4: Exercicio de atribuição de variáveis
 * exe_5: Exercicio de strings
 
+## Relatório de atividade em 09/01/2026
+* exe_6 - Exercicio de Number e Math
