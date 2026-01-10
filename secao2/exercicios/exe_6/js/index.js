@@ -8,7 +8,7 @@ Saída:
     Arredondar para cima
     2 Casas decimais
 
-*/
+
 
 
 let x = prompt('Digite um numero: ');
@@ -22,3 +22,20 @@ document.body.innerHTML += `É inteiro ${Number.isInteger(y)} <br />`;
 document.body.innerHTML += `Arredondado pra cima ${Math.ceil(y)} <br />`;
 document.body.innerHTML += `Arredondado pra baixo ${Math.floor(y)} <br />`;
 document.body.innerHTML += `Com duas casas decimais ${y.toFixed(2)}<br />`;
+*/
+
+const x = prompt('Digite um numero: ');
+const y = Number(x)
+
+const n_titulo = document.getElementById('numero-titulo');
+const texto = document.getElementById('texto');
+
+n_titulo.innerHTML = y;
+texto.innerHTML += `Raiz quadrada: ${Math.sqrt(y)}<br />`;
+texto.innerHTML += `É NaN: ${isNaN(y)}<br />`;
+texto.innerHTML += `É inteiro: ${Number.isInteger(y)} <br />`;
+texto.innerHTML += `Arredondado pra cima: ${Math.ceil(y)} <br />`;
+texto.innerHTML += `Arredondado pra baixo: ${Math.floor(y)} <br />`;
+texto.innerHTML += `Com duas casas decimais: ${y.toFixed(2)}<br />`;
+
+
