@@ -19,5 +19,5 @@
 * Seção 3
   * Criação da pasta modelo para a seção
   * exe_8: Exercicio IMC aprimorado - Interface com CSS  
-  * exe_8_corrigido: Correção do Professor @rasafhdev
-  * 
+  * exe_8_corrigido: Correção do professor
+  * exe_9_tela_de_login: Criação de uma tela de login, desafio próprio
