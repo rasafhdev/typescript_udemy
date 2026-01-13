@@ -51,4 +51,38 @@ form button {
     height: 50px;
     cursor: pointer;
     border-radius: 40px;
+    justify-content: center;
+    align-items: center;
 }
+
+form button:hover {
+    background: var(--primary-color-darker);
+}
+
+
+.indice {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+/* Estilo base do parágrafo de resultado (tamanho, borda, etc) */
+.paragrafo-resultado, .bad {
+    padding: 10px 20px; /* Um pouco de espaço interno ajuda */
+    text-align: center;
+    border-radius: 40px;
+    color: #fff; /* Texto branco para ler melhor */
+    margin-top: 10px;
+}
+
+/* APENAS a cor verde */
+.paragrafo-resultado {
+    background: rgb(1, 107, 54);
+}
+
+/* APENAS a cor vermelha */
+.bad {
+    background: rgb(200, 30, 30); /* Um vermelho mais visível */
+}
+

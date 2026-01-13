@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+
+:root {
+    --primary-color: rgb(13, 106, 134);
+    --primary-color-darker: rgb(9, 48, 56)
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+
+    max-width: 640px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+}
+
+form input, form label, form button {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color)
+}
+
+form button {
+    border:none;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+form button:hover {
+    background: var(--primary-color-darker);
+}
+
+
+.indice {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.paragrafo-resultado, .bad {
+    padding: 10px 20px; /* Um pouco de espaço interno ajuda */
+    text-align: center;
+    border-radius: 40px;
+    color: #fff; /* Texto branco para ler melhor */
+    margin-top: 10px;
+    
+
+}
+
+/* APENAS a cor verde */
+.paragrafo-resultado {
+    background: rgb(1, 107, 54);
+}
+
+/* APENAS a cor vermelha */
+.bad {
+    background: rgb(200, 30, 30); /* Um vermelho mais visível */
+}
